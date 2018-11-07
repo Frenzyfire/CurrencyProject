@@ -1,0 +1,22 @@
+<html>
+<title>Great Britain Pound (£) to United State Dollars ($) Currency Converter</title>
+<body>
+
+<h2>Currency Converter</h2>
+<p>Type a value in the Great Britain Pound (£) field to convert the value to United States Dollar ($):</p>
+
+<p>
+  <label>Great Britain Pound (£)</label>
+  <input id="inputgreatbritainpound" type="number" placeholder="Great Britain Pound (£)" oninput="currencyConverter(this.value)" onchange="currencyConverter(this.value)">
+</p>
+<p>Celcius: <span id="outputunitedstatesdollar"></span></p>
+
+<script>
+function currencyConverter(valNum) {
+  valNum = parseFloat(valNum);
+  document.getElementById("outputunitedstatesdollar").innerHTML=(valNum*(1/1.32));
+}
+</script>
+
+</body>
+</html>
