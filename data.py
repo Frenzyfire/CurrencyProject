@@ -8,9 +8,10 @@ gbp = data["rates"]["GBP"]
 eur = data["rates"]["EUR"]
 jpy = data["rates"]["JPY"]
 sgd = data["rates"]["SGD"]
-
+#change x[""][""] according to json data.
 
 print('GBP', gbp)
 print('EUR', eur)
 print('JPY', jpy)
 print('SGD', sgd)
+#change ("",) according to json data
